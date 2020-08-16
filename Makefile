@@ -41,7 +41,6 @@ server-run-nogpu:
 
 .PHONY: client-run
 client-run:
-	kill -9 $(ps aux | grep 'impersonator_client.py' | awk '{print $2}') 2> /dev/null
 	./src/client/bin/run_client.sh --in-addr tcp://$(SERVER_HOST):5557 --out-addr tcp://$(SERVER_HOST):5558
 
 
