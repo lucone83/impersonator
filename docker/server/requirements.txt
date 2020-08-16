@@ -27,4 +27,4 @@ face-alignment==1.0.0
 pyfakewebcam==0.1.0
 msgpack-numpy==0.4.5
 pyzmq==19.0.0
-torchvision==0.6.1
+torchvision==0.7.0
